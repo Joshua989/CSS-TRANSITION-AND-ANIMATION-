@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transition-property: width, height, background-color;
+    transition-duration: 0.5s;
+transition-timing-function: step-end;
+    transition-delay: 0.3s;
+}
+
+.box:hover {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
